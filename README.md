@@ -14,3 +14,5 @@ Binary search is an efficient algorithm for finding an item from a sorted list o
 The idea is to use binary search which is a Divide and Conquer algorithm. Like all divide-and-conquer algorithms, binary search first divides a large array into two smaller subarrays and then recursively (or iteratively) operate the subarrays. So, binary search reduces the search space to half at each step.
 
 ## Search Using HASH Value
+
+  Whenever an element is to be searched, compute the hash code of the key passed and locate the element using that hash code as index in the array. Use linear    probing to get the element ahead if the element is not found at the computed hash code.
